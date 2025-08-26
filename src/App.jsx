@@ -6,15 +6,16 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Header */}
-      <header className="w-full bg-white shadow-md p-6 flex justify-between items-center sticky top-0 z-50">
-        <h1 className="text-2xl font-bold">Meu Portfólio</h1>
-        <nav className="space-x-6">
-          <a href="#sobre" className="hover:text-blue-600">Sobre</a>
-          <a href="#projetos" className="hover:text-blue-600">Projetos</a>
-          <a href="#habilidades" className="hover:text-blue-600">Habilidades</a>
-          <a href="#contato" className="hover:text-blue-600">Contato</a>
-        </nav>
-      </header>
+    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+  <nav className="container mx-auto flex justify-between items-center py-4 px-6">
+    <h1 className="text-xl font-bold">Maria Geovanna</h1>
+    <ul className="flex gap-6">
+      <li><a href="#sobre" className="hover:text-gray-700">Sobre</a></li>
+      <li><a href="#projetos" className="hover:text-gray-700">Projetos</a></li>
+      <li><a href="#contato" className="hover:text-gray-700">Contato</a></li>
+    </ul>
+  </nav>
+</header>
 
       {/* Hero / Sobre mim */}
       <section id="sobre" className="flex flex-col items-center justify-center text-center py-20 px-6">
@@ -80,4 +81,5 @@ export default function App() {
     </div>
   );
 }
+
 
