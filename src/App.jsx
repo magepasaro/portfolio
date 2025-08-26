@@ -18,10 +18,15 @@ export default function App() {
 
       {/* Hero / Sobre mim */}
       <section id="sobre" className="flex flex-col items-center justify-center text-center py-20 px-6">
-        <h2 className="text-4xl font-bold mb-4">Olá, eu sou [Seu Nome]</h2>
+        <h2 className="text-4xl font-bold mb-4">Olá, eu sou a Maria</h2>
         <p className="text-lg max-w-2xl mb-6">
-          Profissional apaixonado(a) por tecnologia, design e inovação. Este é meu espaço para compartilhar
-          projetos, ideias e experimentos digitais.
+          Profissional apaixonada por transformar desafios em soluções concretas. Minha trajetória une tecnologia, educação e gestão de projetos, desde a concepção de ideias até a implementação de experiências digitais que geram impacto real.
+        </p>
+        <p className="text-lg max-w-2xl mb-6">
+          Ao longo da minha carreira, já colaborei com escolas, plataformas educacionais e comunidades, garantindo que a tecnologia esteja a serviço do aprendizado e do crescimento das pessoas. Minha abordagem combina análise de dados, atenção aos detalhes e criatividade, sempre buscando resultados que façam a diferença.
+        </p>
+        <p className="text-lg max-w-2xl mb-6">
+          Acredito que cada projeto é uma história a ser contada e cada desafio, uma oportunidade de inovar. Aqui no meu portfólio, compartilho minhas experiências, projetos e soluções – e convido você a explorar e se inspirar comigo nessa jornada.
         </p>
         <Button className="px-6 py-3 text-lg">Veja meus projetos</Button>
       </section>
@@ -36,7 +41,7 @@ export default function App() {
                 <div className="h-40 bg-gray-200 rounded-xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-2">Projeto {p}</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  Descrição breve do projeto, quais tecnologias foram usadas e qual problema resolveu.
+                  Adicionar descrição breve do projeto, quais tecnologias foram usadas e qual problema resolveu.
                 </p>
                 <Button variant="outline">Ver detalhes</Button>
               </CardContent>
@@ -75,3 +80,4 @@ export default function App() {
     </div>
   );
 }
+
