@@ -1,51 +1,47 @@
-# portfolio
-Portfólio digital em React + Tailwind CSS para apresentar meus projetos, habilidades e contato profissional.
-
 # Portfólio Digital
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 Este é meu portfólio pessoal, desenvolvido em **React** e estilizado com **Tailwind CSS**.  
 O objetivo é apresentar meus projetos, habilidades técnicas e informações de contato de forma clara e profissional.
 
-## Tecnologias Utilizadas
+---
 
-- React
-- Tailwind CSS
-- JavaScript
-- HTML & CSS
-
-## Estrutura do Portfólio
+## 🔹 Estrutura do Portfólio
 
 - **Home / Sobre mim:** Apresentação pessoal.
 - **Projetos:** Exposição de projetos fictícios e reais.
 - **Habilidades:** Lista de competências técnicas.
 - **Contato:** Links para e-mail, LinkedIn e GitHub.
 
-## Projetos em Destaque
+---
 
-1. **Dashboard de Análise de Dados**  
-   - Ferramentas: React + Chart.js / Power BI  
-   - Descrição: Dashboard simulando análise de engajamento de uma comunidade online.  
-   - Objetivo: Mostrar habilidades em análise de dados e visualização.
+## 🔹 Projetos em Destaque
 
-2. **Landing Page de Produto Digital**  
-   - Ferramentas: HTML, CSS, JavaScript ou React  
-   - Descrição: Página de apresentação de um curso fictício.  
-   - Objetivo: Demonstração de design responsivo, UI/UX e copywriting.
+| Projeto | Tecnologias | Descrição | Link |
+|--------|------------|-----------|------|
+| Dashboard de Análise de Dados | React + Chart.js / Power BI | Dashboard simulando análise de engajamento de uma comunidade online. | [Ver Projeto](#) |
+| Landing Page de Produto Digital | HTML, CSS, JavaScript ou React | Página de apresentação de um curso fictício. | [Ver Projeto](#) |
+| Hub de Gestão de Comunidade | React + Tailwind CSS | Site de centralização de conteúdo para membros, com calendário e notícias. | [Ver Projeto](#) |
+| Aplicativo Web de Tarefas com Gamificação | React, JavaScript | App simples para criar tarefas, marcar como concluídas e ganhar pontos. | [Ver Projeto](#) |
+| Rebranding de Interface (UI/UX) | Figma / React | Redesigned interface de um app conhecido com melhorias de UX. | [Ver Projeto](#) |
 
-3. **Hub de Gestão de Comunidade**  
-   - Ferramentas: React + Tailwind CSS  
-   - Descrição: Site de centralização de conteúdo para membros, com calendário e notícias.  
-   - Objetivo: Organização de conteúdo e experiência do usuário.
+> ⚠️ Substitua os links `#` pelos links reais assim que os projetos estiverem online.
 
-4. **Aplicativo Web de Tarefas com Gamificação**  
-   - Ferramentas: React, JavaScript  
-   - Descrição: App simples para criar tarefas, marcar como concluídas e ganhar pontos.  
-   - Objetivo: Lógica de programação e criatividade em design.
+---
 
-5. **Rebranding de Interface (UI/UX)**  
-   - Ferramentas: Figma / React  
-   - Descrição: Redesigned interface de um app conhecido com melhorias de UX.  
-   - Objetivo: Visão crítica e design aplicado.
+## 🔹 Habilidades Técnicas
+
+- **Frontend:** React, HTML, CSS, JavaScript, Tailwind CSS  
+- **Análise de Dados:** Power BI, SQL  
+- **Design e UX:** Figma, UI/UX, prototipagem  
+- **Gestão de Projetos e Comunidade:** Trello, Notion, Jira, HubSpot  
+
+---
 
 ## Como Rodar Localmente
 
