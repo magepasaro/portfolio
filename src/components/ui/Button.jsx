@@ -1,15 +1,15 @@
 import React from "react";
 
-// Componente Button simples para uso em todo o portfólio
-export function Button({ children, variant = "solid", className = "", ...props }) {
-  const baseStyles = "px-4 py-2 rounded-md font-medium transition";
-  const variants = {
-    solid: "bg-blue-600 text-white hover:bg-blue-700",
-    outline: "border border-blue-600 text-blue-600 hover:bg-blue-50"
-  };
-  return (
-    <button className={`${baseStyles} ${variants[variant]} ${className}`} {...props}>
-      {children}
-    </button>
-  );
+interface ButtonProps {
+  text: string;
+  onClick?: () => void;
 }
+
+export const Button = ({ text, onClick }: ButtonProps) => (
+  <button
+    onClick={onClick}
+    className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-300"
+  >
+    {text}
+  </button>
+);
