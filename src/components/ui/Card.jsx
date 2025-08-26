@@ -1,11 +1,13 @@
 import React from "react";
 
-// Card base simples
-export function Card({ children, className = "" }) {
-  return <div className={`bg-white rounded-lg ${className}`}>{children}</div>;
+interface CardProps {
+  title: string;
+  description: string;
 }
 
-// CardContent para estrutura interna
-export function CardContent({ children, className = "" }) {
-  return <div className={className}>{children}</div>;
-}
+export const Card = ({ title, description }: CardProps) => (
+  <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+    <h3 className="text-xl font-semibold mb-2">{title}</h3>
+    <p>{description}</p>
+  </div>
+);
