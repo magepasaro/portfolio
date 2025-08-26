@@ -1,6 +1,6 @@
 import React from "react";
 
-// Card é um componente simples de demonstração
+// Card é um componente simples
 export function Card({ title, description }) {
   return (
     <div className="border rounded-lg p-4 shadow-md w-full max-w-sm mb-4">
