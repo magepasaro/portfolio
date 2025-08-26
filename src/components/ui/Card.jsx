@@ -1,11 +1,11 @@
 import React from "react";
 
-// Card é um componente simples
-export function Card({ title, description }) {
-  return (
-    <div className="border rounded-lg p-4 shadow-md w-full max-w-sm mb-4">
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <p>{description}</p>
-    </div>
-  );
+// Card base simples
+export function Card({ children, className = "" }) {
+  return <div className={`bg-white rounded-lg ${className}`}>{children}</div>;
+}
+
+// CardContent para estrutura interna
+export function CardContent({ children, className = "" }) {
+  return <div className={className}>{children}</div>;
 }
