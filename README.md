@@ -30,7 +30,7 @@ O objetivo é apresentar meus projetos, habilidades técnicas e informações de
 | Aplicativo Web de Tarefas com Gamificação | React, JavaScript | App simples para criar tarefas, marcar como concluídas e ganhar pontos. | [Ver Projeto](#) |
 | Rebranding de Interface (UI/UX) | Figma / React | Redesigned interface de um app conhecido com melhorias de UX. | [Ver Projeto](#) |
 
-> ⚠️ Substitua os links `#` pelos links reais assim que os projetos estiverem online.
+> ⚠️ Os links de projetos ainda não estão disponiveis online.
 
 ---
 
