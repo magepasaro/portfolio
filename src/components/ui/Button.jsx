@@ -1,15 +1,15 @@
 import React from "react";
 
-interface ButtonProps {
-  text: string;
-  onClick?: () => void;
-}
+export function Button({ children, variant = "default", ...props }) {
+  const base = "px-4 py-2 rounded-lg font-medium transition";
+  const styles = {
+    default: "bg-gray-900 text-white hover:bg-gray-800 shadow",
+    outline: "border border-gray-300 text-gray-700 hover:bg-gray-100",
+  };
 
-export const Button = ({ text, onClick }: ButtonProps) => (
-  <button
-    onClick={onClick}
-    className="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-300"
-  >
-    {text}
-  </button>
-);
+  return (
+    <button className={`${base} ${styles[variant]}`} {...props}>
+      {children}
+    </button>
+  );
+}
