@@ -16,28 +16,15 @@ export default function App() {
         </nav>
       </header>
 
-    {/* Hero / Sobre */}
+      {/* Hero / Sobre */}
       <section id="sobre" className="flex flex-col items-center justify-center text-center py-20 px-6">
-        <h2 className="text-4xl font-bold mb-4">Olá, eu sou Maria Geovanna</h2>
-        <p className="text-lg max-w-2xl mb-6 leading-relaxed">
-          Sou apaixonada por tecnologia, design e educação, e construí minha trajetória explorando a interseção entre esses mundos. 
-          Já atuei como <strong>Analista de Projetos/Negócios na Alura</strong>, onde liderei iniciativas para implementar aulas de programação 
-          em escolas públicas e privadas, além de acompanhar clientes em processos de implantação tecnológica.
+        <h2 className="text-4xl font-bold mb-4">Olá, eu sou [Seu Nome]</h2>
+        <p className="text-lg max-w-2xl mb-6">
+          Profissional apaixonado(a) por tecnologia, design e inovação. Este é meu espaço
+          para compartilhar projetos, ideias e experimentos digitais.
         </p>
-        <p className="text-lg max-w-2xl mb-6 leading-relaxed">
-          Minha experiência também passa por <strong>gestão de comunidades e projetos sociais</strong>, como o Engenheiros Sem Fronteiras e 
-          o projeto Geração Mulher, sempre com foco em capacitar pessoas e criar impacto real.
-        </p>
-        <p className="text-lg max-w-2xl mb-6 leading-relaxed">
-          Hoje, me especializo em <strong>tecnologias educacionais, desenvolvimento web e análise de dados</strong>, com domínio de ferramentas 
-          como React, JavaScript, SQL, Power BI, Tailwind, Notion e Jira. Também tenho experiência em design, edição de vídeo e interfaces digitais.
-        </p>
-        <p className="text-lg max-w-2xl mb-6 leading-relaxed">
-          Meu objetivo é unir <strong>criatividade e tecnologia</strong> para construir experiências digitais que sejam funcionais, acessíveis e transformadoras 🚀
-        </p>
-      <Button>Veja meus projetos</Button>
+        <Button>Veja meus projetos</Button>
       </section>
-
 
       {/* Projetos */}
       <section id="projetos" className="py-20 bg-gray-100 px-6">
@@ -111,5 +98,4 @@ export default function App() {
     </div>
   );
 }
-
 
