@@ -18,7 +18,7 @@ export default function App() {
 
     {/* Hero / Sobre */}
       <section id="sobre" className="flex flex-col items-center justify-center text-center py-20 px-6">
-        <h2 className="text-4xl font-bold mb-4">Olá, eu sou Maria Geovanna 👋</h2>
+        <h2 className="text-4xl font-bold mb-4">Olá, eu sou Maria Geovanna</h2>
         <p className="text-lg max-w-2xl mb-6 leading-relaxed">
           Sou apaixonada por tecnologia, design e educação, e construí minha trajetória explorando a interseção entre esses mundos. 
           Já atuei como <strong>Analista de Projetos/Negócios na Alura</strong>, onde liderei iniciativas para implementar aulas de programação 
@@ -111,4 +111,5 @@ export default function App() {
     </div>
   );
 }
+
 
